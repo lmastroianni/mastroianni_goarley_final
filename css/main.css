@@ -45,6 +45,8 @@ body
   max-width: 1200px;
 }
 
+
+/* INDEX PAGE */
 .heroImage
 {
   width: 100%;
@@ -91,7 +93,6 @@ body
   border-radius: 5px;
   padding: 20px;
   text-align: center;
-  margin: 10px;
 }
 
 .box1 img
@@ -207,7 +208,6 @@ body
   color: #fff;
 }
 
-
 .logo
 {
   width: 250px;
@@ -318,17 +318,12 @@ body
 #footerMobile
 {
   background-color: #6e8b6e;
-  margin: auto;
+
   width: 100%;
   height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-
-.footerCopyRight
-{
-  margin-top: 40px;
 }
 
 #footerDesktop
@@ -399,8 +394,15 @@ body
   height: 250px;
   opacity: 0.08;
   margin-top: 50px;
-
 }
+.line3
+{
+  border-left: 2px solid black;
+  height: 250px;
+  opacity: 0.08;
+  margin-top: 50px;
+}
+
 
 #linesMobile
 {
@@ -653,4 +655,3 @@ body
 }
 
 }
-
