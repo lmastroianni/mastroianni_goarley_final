@@ -804,16 +804,22 @@ body
   height: 100px;
   opacity: 0.08;
   margin-top: 50px;
-
 }
+
 .line2About
+{
+  display: none;
+}
+
+.line3About
 {
   border-left: 2px solid black;
   height: 100px;
   opacity: 0.08;
   margin-top: 50px;
-
 }
+
+
 
 #linesMobileAbout
 {
@@ -837,18 +843,20 @@ body
   }
 
   /* LINES */
+
   .line1About
   {
     border-left: 2px solid black;
-    height: 200px;
+    height: 150px;
     opacity: 0.08;
     margin-top: 30px;
   }
 
   .line2About
   {
+    display: block;
     border-left: 2px solid black;
-    height: 200px;
+    height: 150px;
     opacity: 0.08;
     margin-top: 30px;
   }
@@ -856,7 +864,7 @@ body
   .line3About
   {
     border-left: 2px solid black;
-    height: 200px;
+    height: 150px;
     opacity: 0.08;
     margin-top: 30px;
   }
@@ -869,7 +877,9 @@ body
   .aboutUsInfoBox
   {
     margin: 10px;
-    width: 211px;
+    justify-content: space-between;
   }
 
 }
+
+/* PAST EVENTS */
