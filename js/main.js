@@ -31,4 +31,10 @@ console.log("Java Script Linked Up");
   logo.style.marginTop = "25px";
 	};
 
+	// Timeline Reveal
+	document.addEventListener('aos:in',  ({ detail }) => {
+  	console.log('animated in', detail);
+});
+
+
 })();
