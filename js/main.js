@@ -13,7 +13,7 @@ console.log("Java Script Linked Up");
 
 (function(){
 	"use strict";
-	
+
 	console.log("fired");
 
 	var button = document.querySelector("#button");
@@ -25,5 +25,10 @@ console.log("Java Script Linked Up");
 	}
 
 	button.addEventListener("click", hamburgerMenu, false);
+
+	window.onload = function() {
+  var logo = document.getElementById('logo_middle')
+  logo.style.marginTop = "25px";
+	};
 
 })();
