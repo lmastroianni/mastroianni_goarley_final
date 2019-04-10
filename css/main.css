@@ -850,7 +850,8 @@ body
   text-align: left;
 }
 
-#charts h2
+
+/* #charts h2
 {
   font-family: 'Averia Serif Libre', cursive;
   font-size: 20px;
@@ -862,10 +863,7 @@ body
   font-family: 'Averia Serif Libre', cursive;
   font-size: 15px;
   padding-bottom: 5px;
-}
-
-
-
+} */
 
 @media screen and (min-width: 640px) {
 
