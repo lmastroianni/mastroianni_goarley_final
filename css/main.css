@@ -16,12 +16,14 @@ p
   font-family: 'Averia Serif Libre', cursive;
   color: black;
 }
-h1
+h1, h2
 {
   font-family: 'Lato', sans-serif;
   font-weight: 800;
   letter-spacing: 2px;
 }
+
+
 h4
 {
   font-family: 'Lato', sans-serif;
@@ -52,7 +54,7 @@ body
 }
 
 
-/* INDEX PAGE */
+/* ---------------------INDEX PAGE--------------------- */
 .heroImage
 {
   width: 100%;
@@ -772,7 +774,7 @@ body
 
 }
 
-/* ABOUT US PAGE */
+/* ---------------------ABOUT US PAGE--------------------- */
 
 #heroText
 {
@@ -1003,7 +1005,7 @@ body
 
 }
 
-/* PAST EVENTS */
+/* ---------------------PAST EVENTS--------------------- */
 
 .desktopTextEvents
 {
@@ -1563,8 +1565,219 @@ body
   margin-top: 100px;
 }
 
+/* ----------------PROJECTS PAGE----------------- */
+
+#traaProjectH1
+{
+  font-size: 40px;
+}
+
+#usProjects
+{
+  font-size: 40px;
+  color: #53652b
+}
+
+#traaProjectsHeading h2
+{
+  margin-left: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+#projects
+{
+  line-height: 25px;
+}
+
+#projects button
+{
+  height: 40px;
+  width: 40%;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project1 h1
+{
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.project1 p
+{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project2 h1
+{
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.project2 p
+{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project3 h1
+{
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.project3 p
+{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 640px){
+
+  #traaProjectH1
+  {
+    font-size: 55px;
+  }
+
+  #usProjects
+  {
+    font-size: 55px;
+    color: #53652b
+  }
+
+  #traaProjectsHeading h2
+  {
+    margin-left: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+
+  .project1 h1
+  {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .project1 p
+  {
+    font-size: 20px;
+  }
+
+  .project2 h1
+  {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .project2 p
+  {
+    font-size: 20px;
+  }
+
+  .project3 h1
+  {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .project3 p
+  {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (min-width: 965px){
+
+  #projects
+  {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .projectBox
+  {
+    flex: 1 1 auto;
+  }
+
+  .project1
+  {
+    width: 30%;
+    margin: 10px;
+    margin-left: 20px;
+    transition: 1s ease;
+  }
+
+  .project1:hover
+  {
+    transform: scale(1.05);
+  }
+
+  .project1 h1
+  {
+    margin-bottom: 15px;
+  }
+
+  .project2
+  {
+    width: 30%;
+    margin: 10px;
+    transition: 1s ease;
+  }
+
+  .project2:hover
+  {
+    transform: scale(1.05);
+  }
+
+  .project2 h1
+  {
+    margin-bottom: 15px;
+  }
+
+  .project3
+  {
+    width: 30%;
+    margin: 10px;
+    margin-right: 20px;
+    transition: 1s ease;
+  }
+
+  .project3:hover
+  {
+    transform: scale(1.05);
+  }
+
+  .project3 h1
+  {
+    margin-bottom: 15px;
+  }
+
+}
 
 
+
+/*
 #navMainLeft, #navMainRight button
 {
   background: url(../images/burger.svg) center no-repeat;
@@ -1662,7 +1875,7 @@ body
 }
 
 /* LINKS PAGE */
-
+/*
 #linksHeading
 {
   color: black;
@@ -1688,7 +1901,7 @@ body
 {
   font-family: 'Averia Serif Libre', cursive;
   font-size: 50px;
-  
+
   color: #53652b;
 }
 
@@ -1712,7 +1925,7 @@ body
 {
   font-family: 'Averia Serif Libre', cursive;
   font-size: 50px;
-  
+
   color: #53652b;
 }
 
@@ -1747,16 +1960,16 @@ body
 
 .content5Text p a
 {
-  color: black; 
+  color: black;
 }
 
 #content4 p
 {
   margin: 20px;
-}
+} */
 
 /*@media screen and (min-width: 640px){
-  
+
   .content1Text p a
   {
   font-size: 35px;
@@ -1788,7 +2001,7 @@ body
   }
 
 }*/
-
+/*
 @media screen and (min-width: 1024px){
 
   #content1
@@ -1911,71 +2124,10 @@ body
  font-size: 18px;
 }
 
-
-}
-
-/* Projects Page */
-
-#traaProjectH1 
+#footerDesktop
 {
-  font-size: 100px;
-  margin: 30px;
+  display: contents;
 }
 
 
-#us
-{
-  font-size: 100px;
-}
-
-#traaProjectsHeading p
-{
-  margin: 20px;
-  font-size: 50px;
-}
-
-.project1 h1
-{
-  margin: 20px;
-  width: 100%;
-  font-size: 40px;
-}
-
-#projects
-{
-  line-height: 25px;
-}
-
-#projects button
-{
-  height: 100px;
-  width: 300px;
-  margin: 20px;
-}
-
-.project2 h1
-{
-  margin: 20px;
-  width: 100%;
-  font-size: 40px;
-}
-
-.project3 h1
-{
-  margin: 20px;
-  width: 100%;
-  font-size: 40px;
-}
-
-@media screen and (min-width: 540px) {
-
-  #projects button
-  {
-    width: 80%;
-  } 
-
-  #projects p
-  {
-    font-size: 30px;
-  }
-}
+} */

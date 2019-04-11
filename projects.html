@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <title>TRAA</title>
   <!--Link to reset first-->
   <link href="css/reset.css" rel="stylesheet" type="text/css">
@@ -13,38 +14,57 @@
 <div id="container">
 
 <!--Header-->
-  <header id="mainHeader">
-
-<nav id="navMainLeft">
-  <h1 class="hidden">Main Navigation</h1>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about_us.html">About Us</a></li>
-    <li><a href="events.html">Past Events</a></li>
-  </ul>
+<header id="mainHeader">
+  <div class="box nav">
+    <nav id="mainNav">
+      <h2 class="hidden">Main Navigation</h2>
+        <button id="button"></button>
+    <div id="burgerCon">
+        <ul id="burgerMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="past_events.html">Past Events</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="links.html">Links</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+  </div>
 </nav>
 
-<div id="logo_middle">
+  </div>
+  <div class="box logo">
+    <img src="images/traa_logo-MASTER_header.svg" alt="" height="250px" width="250px;">
+  </div>
+</header>
 
-  <img src="images/traa_logo-MASTER.svg" alt="" height="280px" width="280px;">
+<header class="hidden deskNav">
+<nav id="navMainLeft">
+<h1 class="hidden">Main Navigation Desktop</h1>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about_us.html">About Us</a></li>
+<li id="eventsLink"><a href="past_events.html">Past Events</a></li>
+</ul>
+</nav>
 
+<div id="logo_middle" >
+<img src="images/traa_logo-MASTER_header.svg" alt="" height="280px" width="280px;">
 </div>
 
 <nav id="navMainRight">
-  <h1 class="hidden">Main Navigation</h1>
-  <ul>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="links.html">Links</a></li>
-    <li><a href="contact.html">Contact Us</a></li>
-  </ul>
+<h1 class="hidden">Main Navigation Right</h1>
+<ul>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="links.html">Links</a></li>
+<li id="contactLink"><a href="contact.html">Contact Us</a></li>
+</ul>
 </nav>
-
-  </header>
+</header>
 
      <section id="traaProject">
     <div id="traaProjectsHeading">
-      <h1 id="traaProjectH1">TRAA <span id="us">Projects</span></h1>
-      <p>Here's our current projects</p>
+      <h1 id="traaProjectH1">TRAA <span id="usProjects">Projects</span></h1>
+      <h2>Here's our current projects</h2>
     </div>
 
     </section>
@@ -52,24 +72,24 @@
   <section id="projects">
 
 
-    <div class="project1">
+    <div class="project1 projectBox">
 
       <div id="box1">
-        <img src="images/salmonid.jpg" height="450" width="800" alt="salmonid" class="roundShadow">
+        <img src="images/salmonid.jpg" height="250" width="800" alt="salmonid" class="roundShadow responsive">
       </div>
 
       <h1>Salmonid Monitoring Program</h1>
       <p>Here's an overview of what happened over a few weekends in the
-Spring of 2012 when TRAA members and personnel from the Upper
-Thames River Conservation Authority (UTRCA) waded in for Year 3
-of our 5-year Salmonid Tagging and Monitoring Program</p>
+        Spring of 2012 when TRAA members and personnel from the Upper
+        Thames River Conservation Authority (UTRCA) waded in for Year 3
+        of our 5-year Salmonid Tagging and Monitoring Program</p>
       <button type="button" name="button">...Read More</button>
     </div>
 
-    <div class="project2">
+    <div class="project2 projectBox">
 
       <div id="box2">
-        <img src="images/trout_hatchery.jpg" height="450" width="800" alt="salmonid" class="roundShadow">
+        <img src="images/trout_hatchery.jpg" height="250" width="800" alt="salmonid" class="roundShadow responsive">
       </div>
 
       <h1>TRAA Trout Hatchery</h1>
@@ -78,10 +98,10 @@ of our 5-year Salmonid Tagging and Monitoring Program</p>
     </div>
 
 
-    <div class="project3">
+    <div class="project3 projectBox">
 
       <div id="box3">
-          <img src="images/river.jpg" height="450" width="800" alt="salmonid" class="roundShadow">
+          <img src="images/river.jpg" height="250" width="800" alt="salmonid" class="roundShadow responsive">
       </div>
 
       <h1>TRAA Stream Rehabilitation</h1>
@@ -91,32 +111,62 @@ of our 5-year Salmonid Tagging and Monitoring Program</p>
 
   </section>
 
-<footer>
+  <footer class="footer">
 
-  <nav id="footerNav">
-    <h1 class="hidden">Main Navigation</h1>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Past Events</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Links</a></li>
-      <li><a href="#">Contact Us</a></li>
-    </ul>
-  </nav>
+      <section id="footerMobile">
 
-    <section  id="footerMain">
-    <h1 class="hidden">Main Footer</h1>
+        <section id="footerMobileCont">
+          <a id="backToTopBut" href="index.html">Back To Top</a>
 
-    <img id="footerLogo" src="images/traa_logo-FOOTER.svg" alt="logo" height="120" width="120">
+              <div class="footerNavBoxMobile">
+                <nav id="footerNavMobile">
+                  <h1 class="hidden">Footer Navigation</h1>
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about_us.html">About Us</a></li>
+                      <li><a href="past_events.html">Past Events</a></li>
+                      <li><a href="projects.html">Projects</a></li>
+                      <li><a href="links.html">Links</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </nav>
+              </div>
 
-    <form class="footerForm" action="index.html" method="post">
-      <p>Sign Up for our Newsletter</p>
-      <input type="email" placeholder="Email"><button id="footerFormBut" type="submit" name="button">Submit</button>
-    </form>
+              <p class="footerCopyRightMobile">©Copyright 2019</p>
+            </section>
 
-    </section>
-</footer>
+          </section>
+
+          <section id="footerDesktop">
+
+            <div class="footerImgBox">
+              <img id="footerLogo" src="images/traa_logo-FOOTER.svg" alt="logo" height="120" width="120">
+            </div>
+
+            <div class="footerNavBox">
+              <nav id="footerNav">
+                <h1 class="hidden">Footer Navigation</h1>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="past_events.html">Past Events</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="links.html">Links</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="footerFormBox">
+              <form class="footerForm" action="index.html" method="post">
+                <p>Sign Up for our Newsletter</p>
+                <input type="email" placeholder="Email"><button id="footerFormBut" type="submit" name="button">Submit</button>
+              </form>
+            </div>
+
+          </section>
+
+        </footer>
 
 <!--Load js at bottom-->
 	<script src="js/main.js"></script>
