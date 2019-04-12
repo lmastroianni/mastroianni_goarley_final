@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <title>TRAA</title>
   <!--Link to reset first-->
   <link href="css/reset.css" rel="stylesheet" type="text/css">
@@ -11,139 +12,155 @@
 </head>
 <body>
 <div class="container">
-
-<!--Header-->
   <header id="mainHeader">
+    <div class="box nav">
+      <nav id="mainNav">
+        <h2 class="hidden">Main Navigation</h2>
+          <button id="button"></button>
+      <div id="burgerCon">
+          <ul id="burgerMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="past_events.html">Past Events</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="links.html">Links</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+    </div>
+  </nav>
 
-
-<nav id="navMainLeft">
-  <h1 class="hidden">Main Navigation</h1>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about_us.html">About Us</a></li>
-    <li><a href="past_events.html">Past Events</a></li>
-  </ul>
-</nav>
-
-<div id="logo_middle" class="logo_middle">
-
-  <img src="images/traa_logo-MASTER.svg" alt="" height="280px" width="280px;">
-
-</div>
-
-<nav id="navMainRight">
-  <h1 class="hidden">Main Navigation</h1>
-  <ul>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="links.html">Links</a></li>
-    <li><a href="contact.html">Contact Us</a></li>
-  </ul>
-</nav>
-
+    </div>
+    <div class="box logo">
+      <img src="images/traa_logo-MASTER_header.svg" alt="" height="250px" width="250px">
+    </div>
   </header>
 
+  <header class="hidden deskNav">
+  <nav id="navMainLeft">
+  <h1 class="hidden">Main Navigation Desktop</h1>
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about_us.html">About Us</a></li>
+  <li id="eventsLink"><a href="past_events.html">Past Events</a></li>
+  </ul>
+  </nav>
+
+  <div id="logo_middle" class="logo_middle">
+  <img src="images/traa_logo-MASTER_header.svg" alt="" height="280px" width="280px">
+  </div>
+
+  <nav id="navMainRight">
+  <h1 class="hidden">Main Navigation Right</h1>
+  <ul>
+  <li><a href="projects.html">Projects</a></li>
+  <li><a href="links.html">Links</a></li>
+  <li id="contactLink"><a href="contact.html">Contact Us</a></li>
+  </ul>
+  </nav>
+  </header>
+
+  <div id="linksHeading">
+    <h2>TRAA <span id="link">Links</span></h2>
+  </div>
+
 <section id="links">
-  <h2 id="linksHeading">TRAA <span id="link">Links</span></h2>
 
+     <section id="content1" class="boxLinks">
+       <div>
+         <h3>Conservation</h3>
+         <p>
+          <a href="https://caroliniancanada.ca/">- Carolinian Canada</a>
+        <br>
+          <a href="http://thamesrivercleanup.ca/default.htm">- Friends of the Thames / Thames River Cleanup</a>
+        <br>
+          <a href="http://www.naturelondon.com/">- Nature London</a>
+        <br>
+          <a href="https://www.abca.on.ca/">- North Shore Steelhead Association</a>
+        <br>
+          <a href="https://www.ontariostreams.on.ca/">- Ontario Streams</a>
+        <br>
+          <a href="https://www.ofah.org/">- Ontario Federation of Anglers and Hunters</a>
+        <br>
+          <a href="https://tucanada.org/">- Trout Unlimited Canada</a>
+        </p>
+       </div>
+    </section>
 
- <section id ="content1">
-   <div class="content1Text">
-     <h3>Conservation</h3>
-     <p>
-      <a href="https://caroliniancanada.ca/">- Carolinian Canada</a>
+    <section id="content2" class="boxLinks">
+      <div>
+        <h3>Government Entities</h3>
+        <p>
+         <a href="https://www.ontario.ca/page/ministry-natural-resources-and-forestry">- Ontario Ministry of Natural Resources</a>
+       <br>
+         <a href="https://www.ontario.ca/page/ministry-environment-conservation-parks">- Ontario Ministry of the Environment</a></p>
+      </div>
+    </section>
 
-    <br>
-      <a href="http://thamesrivercleanup.ca/default.htm">- Friends of the Thames / Thames River Cleanup</a>
-    <br>
-      <a href="http://www.naturelondon.com/">- Nature London</a>
-    <br>
-      <a href="https://www.abca.on.ca/">- North Shore Steelhead Association</a>
-    <br>
-      <a href="https://www.ontariostreams.on.ca/">- Ontario Streams</a>
-    <br>
-      <a href="https://www.ofah.org/">- Ontario Federation of Anglers and Hunters</a>
-    <br>
-      <a href="https://tucanada.org/">- Trout Unlimited Canada</a>
-    </p>
-   </div>
+     <section id="content3" class="boxLinks">
+      <div>
+        <h3>Conservation Authorities</h3>
+        <p><a href="http://www.abca.on.ca/">- Ausable Bayfield Conservation Authority</a>
+       <br>
+         <a href="http://www.creditvalleycons.com/">- Credit Valley Conservation Authority</a>
+       <br>
+         <a href="https://essexregionconservation.ca/">- Essex Region Conservation Authority</a>
+       <br>
+         <a href="https://www.grandriver.ca/en/index.aspx">- Grand River Conservation Authority</a>
+       <br>
+         <a href="https://www.conservationhalton.ca/">- Halton Region Conservation Authority</a>
+       <br>
+         <a href="http://conservationhamilton.ca/">- Hamilton Region Conservation Authority</a>
+       <br>
+         <a href="http://www.lprca.on.ca/">- Long Point Region Conservation Authority</a>
+       <br>
+         <a href="http://www.lakeheadca.com/">- Lakehead Region Conservation Authority</a>
+       <br>
+         <a href="https://www.lowerthames-conservation.on.ca/">- Lower Thames Valley Conservation Authority</a>
+       <br>
+         <a href="https://trca.ca/?src=trca.on.ca">- Metro Toronto & Region Conservation Authority</a>
+       <br>
+         <a href="https://www.rvca.ca/">- Rideau Valley Conservation Authority</a>
+       <br>
+         <a href="http://www.scrca.on.ca/">- St.Clair Region Conservation Authority</a>
+       <br>
+         <a href="http://www.thamesriver.on.ca/">- Upper Thames River Conservation Authority</a></p>
+      </div>
+    </section>
 
-   <div class="content2Text">
-     <h3>Government Entities</h3>
-     <p>
-      <a href="https://www.ontario.ca/page/ministry-natural-resources-and-forestry">- Ontario Ministry of Natural Resources</a>
-    <br>
-      <a href="https://www.ontario.ca/page/ministry-environment-conservation-parks">- Ontario Ministry of the Environment</a></p>
-   </div>
-</section>
+    <section id="content4" class="boxLinks">
+      <div>
+        <h3>Fishing and Related Links</h3>
+        <p><a href="http://www3.sympatico.ca/ianjames/">- Ian Colin James</a>
+       <br>
+         <a href="http://www.wofgpa.org/">- Western Ontario Fish & Game Protective Association</a>
+       <br>
+         <a href="http://www.fcfc.ca/index.html">- Forest City Fly Fishing Club</a>
+       <br>
+         <a href="http://forestcitybassmasters.com/">- Forest City Bassmasters</a>
+       <br>
+         <a href="https://wateroffice.ec.gc.ca/google_map/google_map_e.html">- Real-Time Hydrometric Data</a>
+       <br>
+         <a href="https://www.matchanglingclub.com/">- Match Angling Club of Ontario</a>
+       <br>
+         <a href="https://sffcl.com/">- SOTTO Fly Fishing Club</a>
+       <br>
+         <a href="https://thamesriverpaddlingroutes.webs.com/">- Thames River Paddling Routes</a>
+        </p>
+      </div>
+    </section>
 
- <section id="content3">
-  <div class="content3Text">
-    <h3>Conservation Authorities</h3>
-    <p><a href="http://www.abca.on.ca/">- Ausable Bayfield Conservation Authority</a>
-   <br>
-     <a href="http://www.creditvalleycons.com/">- Credit Valley Conservation Authority</a>
-   <br>
-     <a href="https://essexregionconservation.ca/">- Essex Region Conservation Authority</a>
-   <br>
-     <a href="https://www.grandriver.ca/en/index.aspx">- Grand River Conservation Authority</a>
-   <br>
-     <a href="https://www.conservationhalton.ca/">- Halton Region Conservation Authority</a>
-   <br>
-     <a href="http://conservationhamilton.ca/">- Hamilton Region Conservation Authority</a>
-   <br>
-     <a href="http://www.lprca.on.ca/">- Long Point Region Conservation Authority</a>
-   <br>
-     <a href="http://www.lakeheadca.com/">- Lakehead Region Conservation Authority</a>
-   <br>
-     <a href="https://www.lowerthames-conservation.on.ca/">- Lower Thames Valley Conservation Authority</a>
-   <br>
-     <a href="https://trca.ca/?src=trca.on.ca">- Metro Toronto & Region Conservation Authority</a>
-   <br>
-     <a href="https://www.rvca.ca/">- Rideau Valley Conservation Authority</a>
-   <br>
-     <a href="http://www.scrca.on.ca/">- St.Clair Region Conservation Authority</a>
-   <br>
-     <a href="http://www.thamesriver.on.ca/">- Upper Thames River Conservation Authority</a></p>
-  </div>
+  </section>
 
-  <div class="content5Text">
-    <h3>Fishing and Related Links</h3>
-    <p><a href="http://www3.sympatico.ca/ianjames/">- Ian Colin James</a>
-   <br>
-     <a href="http://www.wofgpa.org/">- Western Ontario Fish & Game Protective Association</a>
-   <br>
-     <a href="http://www.fcfc.ca/index.html">- Forest City Fly Fishing Club</a>
-   <br>
-     <a href="http://forestcitybassmasters.com/">- Forest City Bassmasters</a>
-   <br>
-     <a href="https://wateroffice.ec.gc.ca/google_map/google_map_e.html">- Real-Time Hydrometric Data</a>
-   <br>
-     <a href="https://www.matchanglingclub.com/">- Match Angling Club of Ontario</a>
-   <br>
-     <a href="https://sffcl.com/">- SOTTO Fly Fishing Club</a>
-   <br>
-     <a href="https://thamesriverpaddlingroutes.webs.com/">- Thames River Paddling Routes</a>
-    </p>
-  </div>
-
-</section>
-
- <section id="content4">
-<h3>Support These Local Fishing and Related Retailers</h3>
-
-<section class="images">
-  <h3 class="hidden">Related Retailers</h3>
-<img src="images/angling_sports.png" height="100" width="100">
-
-<img src="images/angling_outfitters.jpg" height="100" width="300">
-
-<img src="images/lambethrod.jpg" height="100" width="100" class="roundShadow">
-</section>
-  <p>
-John's Fly Materials - 96 Rectory Street, London, ON N5Z 1Z9 (226-270-9029)
- </p>
-</section>
-
+  <section id="content5">
+     <h3>Support These Local Fishing and Related Retailers</h3>
+       <section class="images">
+           <h3 class="hidden">Related Retailers</h3>
+           <img src="images/angling_sports.png" height="100" width="100">
+           <img src="images/angling_outfitters.jpg" height="100" width="300">
+           <img src="images/lambethrod.jpg" height="100" width="100" class="roundShadow">
+       </section>
+     <p>John's Fly Materials - 96 Rectory Street, London, ON N5Z 1Z9 (226-270-9029)</p>
+   </section>
 
 <footer class="footer">
 
