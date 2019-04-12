@@ -24,6 +24,8 @@ h1, h2
 }
 
 
+
+
 h4
 {
   font-family: 'Lato', sans-serif;
@@ -553,11 +555,16 @@ body
     justify-content: center;
   }
 
-  .logo_middle
+  .logo_middleDesktop
   {
     margin-top: -280px;
     position: absolute;
     transition: 1.2s ease;
+  }
+
+  .logo_middle
+  {
+    position: absolute;
   }
 
 
@@ -1709,6 +1716,11 @@ body
 
 @media screen and (min-width: 965px){
 
+  #traaProject
+  {
+    margin-top: 120px;
+  }
+
   #projects
   {
     display: flex;
@@ -1775,20 +1787,218 @@ body
 
 }
 
+/* ----------------------LINKS PAGE----------------------- */
 
-
-/*
-#navMainLeft, #navMainRight button
+#linksHeading
 {
-  background: url(../images/burger.svg) center no-repeat;
-  width: 30px;
-  height: 30px;
-  border: 0px;
-  transition: all 400ms ease;
-  margin-left: auto;
-  margin: 0 auto;
+  margin-top: 25px;
+  font-size: 40px;
 }
 
+#link
+{
+   color: #53652b;
+}
+
+#links a
+{
+  transition: 0.5s ease;
+}
+
+#links a:hover
+{
+  color: #fff;
+}
+
+#content1, #content2, #content3, #content4
+{
+  width: 100%;
+  background-color: #8fb542;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+#content1
+{
+  background-color: #6e8b6e;
+}
+
+#content3
+{
+  background-color: #6e8b6e;
+}
+
+#content1 h3
+{
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 35px;
+  /* color: #53652b; */
+  color: #8fb542;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#content2 h3
+{
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 30px;
+  color: #53652b;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#content3 h3
+{
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 35px;
+  /* color: #53652b; */
+  color: #8fb542;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#content4 h3
+{
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 35px;
+  color: #53652b;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#content5 h3
+{
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 35px;
+  color: #53652b;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#content1 p a
+{
+  font-size: 18px;
+  color: black;
+}
+
+#content2 p a
+{
+  color: black;
+  font-size: 18px;
+}
+
+#content3 p a
+{
+  color: black;
+  font-size: 18px;
+}
+
+#content4 p a
+{
+  color: black;
+  font-size: 18px;
+}
+
+#content5 p a
+{
+  color: black;
+  font-size: 18px;
+}
+
+#content4 p
+{
+  margin: 20px;
+}
+
+@media screen and (min-width: 640px){
+
+  #linksHeading
+  {
+    font-size: 45px;
+  }
+
+  #content1 h3
+  {
+    font-size: 40px;
+  }
+
+  #content2 h3
+  {
+    font-size: 40px;
+  }
+
+  #content3 h3
+  {
+    font-size: 40px;
+  }
+
+  #content4 h3
+  {
+    font-size: 40px;
+  }
+
+  #content5 h3
+  {
+    font-size: 40px;
+  }
+
+  #content1 p a
+  {
+    font-size: 22px;
+  }
+
+  #content2 p a
+  {
+    font-size: 22px;
+  }
+
+  #content3 p a
+  {
+    font-size: 22px;
+  }
+
+  #content4 p a
+  {
+    font-size: 22px;
+  }
+
+  #content5 p a
+  {
+    font-size: 22px;
+  }
+
+}
+
+@media screen and (min-width: 960px){
+
+  #linksHeading
+  {
+    margin-top: 120px;
+    font-size: 55px;
+  }
+
+  #links
+  {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .boxLinks
+  {
+    flex: 1 1 auto;
+  }
+
+  #content1, #content2, #content3, #content4
+  {
+    width: 30%;
+  }
+
+}
+
+
+/* ----------------------CONTACT PAGE----------------------- */
+
+/*
 #heroContact img
 
 {
@@ -1807,20 +2017,7 @@ body
   color: #53652b;
 }
 
-#footerMobile
-{
-  background-color: #6e8b6e;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
 
-#footerDesktop
-{
-  display: none;
-}
 
 #contactText h2
 {
@@ -1872,262 +2069,4 @@ body
 #mapArea
 {
   max-width: 100%;
-}
-
-/* LINKS PAGE */
-/*
-#linksHeading
-{
-  color: black;
-  font-family: 'Lato', sans-serif;
-  font-size: 100px;
-  margin: 40px;
-}
-
-#link
-{
-   color: #53652b;
-}
-
-.content1Text h3
-{
-  font-family: 'Averia Serif Libre', cursive;
-  font-size: 50px;
-  margin: 20px;
-  color: #53652b;
-}
-
-.content2Text h3
-{
-  font-family: 'Averia Serif Libre', cursive;
-  font-size: 50px;
-
-  color: #53652b;
-}
-
-.content3Text h3
-{
-  font-family: 'Averia Serif Libre', cursive;
-  font-size: 50px;
-  margin: 20px;
-  color: #53652b;
-}
-
-.content4Text h3
-{
-  font-family: 'Averia Serif Libre', cursive;
-  font-size: 50px;
-  margin: 20px;
-  color: #53652b;
-}
-
-.content5Text h3
-{
-  font-family: 'Averia Serif Libre', cursive;
-  font-size: 50px;
-
-  color: #53652b;
-}
-
-#content4 h3
-{
-  font-family: 'Averia Serif Libre', cursive;
-  font-size: 50px;
-  margin: 20px;
-  color: #53652b;
-}
-
-.content1Text p a
-{
-  font-size: 18px;
-  color: black;
-}
-
-.content2Text p a
-{
-  color: black;
-}
-
-.content3Text p a
-{
-  color: black;
-}
-
-.content4Text p a
-{
-  color: black;
-}
-
-.content5Text p a
-{
-  color: black;
-}
-
-#content4 p
-{
-  margin: 20px;
-} */
-
-/*@media screen and (min-width: 640px){
-
-  .content1Text p a
-  {
-  font-size: 35px;
-  }
-
-  .content2Text p a
-  {
-  font-size: 35px;
-  }
-
-  .content3Text p a
-  {
-  font-size: 35px;
-  }
-
-  .content4Text p a
-  {
-  font-size: 35px;
-  }
-
-  .content5Text p a
-  {
-   font-size: 35px;
-  }
-
-  #content4 p
-  {
-  font-size: 35px;
-  }
-
-}*/
-/*
-@media screen and (min-width: 1024px){
-
-  #content1
-{
-  width: 1300px;
-  height: 200px;
-  margin-top: 80px;
-  margin-bottom: 80px;
-
-}
-.content1Text
-{
-  margin-left: 150px;
-}
-
-#content1 h3
-{
-  text-align: left;
-  font-size: 30px;
-  font-family: 'Averia Serif Libre', cursive;
-  color: #53652b;
-}
-
-#content1 p
-{
- text-align: left;
- margin: 10px;
- font-size: 18px;
-}
-
-.content2Text
-{
-  margin-left: 800px;
-  margin-top: -180px;
-}
-
-#content3
-{
-  width: 1300px;
-  height: 300px;
-  margin-top: 40px;
-  margin-bottom: 80px;
-}
-.content3Text
-{
-  margin-right: 650px;
-}
-.content5Text
-{
-  margin-left: 700px;
-  margin-top: -270px;
-}
-#content3 h3
-{
-  font-size: 30px;
-  margin-bottom: 100px;
-  font-family: 'Averia Serif Libre', cursive;
-  color: #53652b;
-}
-
-#content3 p
-{
-  margin-top: -100px;
-  margin: -90px;
-  font-size: 18px;
-}
-
-
-.images
-{
-  margin-right: 475px;
-  padding: 30px;
-}
-
-.roundShadow
-{
-  border-radius: 7px;
-  box-shadow: 0px 0px 5px rgba(50,50,50,0.4);
-}
-
-#content4
-{
-  margin-left: 250px;
-  width: 1300px;
-}
-#content4 h3
-{
-  font-size: 30px;
-  font-family: 'Averia Serif Libre', cursive;
-  color: #53652b;
-  margin-right: 450px;
-}
-
-#content4 p
-{
-  margin-right: 450px;
-}
-
-#content5
-{
-  margin-top: -250px;
-}
-
-#content5 h3
-{
-  text-align: right;
-  font-size: 30px;
-  font-family: 'Averia Serif Libre', cursive;
-  color: #53652b;
-}
-
-#content5
-{
-  margin-left:200px;
-}
-#content5 p
-{
-  text-align: right;
- margin: 10px;
- font-size: 18px;
-}
-
-#footerDesktop
-{
-  display: contents;
-}
-
-
 } */
