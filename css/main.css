@@ -963,7 +963,7 @@ body
   #heroText
   {
     font-size: 55px;
-    margin-top: 100px;
+    margin-top: 150px;
   }
 
   #aboutUsInfo
@@ -1998,13 +1998,6 @@ body
 
 /* ----------------------CONTACT PAGE----------------------- */
 
-/*
-#heroContact img
-
-{
-  display: none;
-}
-
 .heroText1
 {
   margin: 0 auto;
@@ -2016,8 +2009,6 @@ body
 {
   color: #53652b;
 }
-
-
 
 #contactText h2
 {
@@ -2035,11 +2026,58 @@ body
   text-align: center;
 }
 
+.contact-form
+{
+  background-color: #8fb542;
+  margin-top: 20px;
+}
+
 .contact-form h1
 {
-  margin: 20px;
   font-size: 30px;
   color: #53652b;
+  padding-top: 20px;
+}
+
+.contact-form label
+{
+  font-size: 15px;
+  font-family: 'Averia Serif Libre', cursive;
+  color: #53652b;
+  float: left;
+}
+
+.contact-form input textarea
+{
+  background-color: #fff;
+  opacity: 0.9;
+}
+
+.contact-form input[type=placeholder]
+{
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+.contact-form placeholder
+{
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+.contact-form input
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+.contact-form textarea
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 
 .text
@@ -2050,13 +2088,14 @@ body
 .btn
 {
   display: inline-block;
-  background: #8495a5;
+  background: #687864;
   padding: 14px 0;
   color: white;
   text-transform: uppercase;
   cursor: pointer;
   margin-top: 8px;
-  width: 100%;
+  margin-bottom: 20px;
+  width: 80%;
   border-radius: 10px;
 }
 
@@ -2064,9 +2103,87 @@ body
   background: gray;
 }
 
-
-
-#mapArea
+.responsiveMap
 {
   max-width: 100%;
-} */
+  height: 422px;;
+}
+
+@media screen and (min-width: 850px){
+
+  #contactInfo
+  {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .boxContact
+  {
+    flex: 1 1 auto;
+  }
+
+  .contact-form
+  {
+    width: 50%;
+  }
+
+  #mapArea
+  {
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  .heroText1
+  {
+    font-size: 65px;
+    margin-top: 50px;
+  }
+
+  #contactText h2
+  {
+    font-size: 35px;
+  }
+
+  #contactText p
+  {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .contact-form
+  {
+    background-color: #8fb542;
+    margin-top: 20px;
+  }
+
+  .contact-form h1
+  {
+    font-size: 30px;
+    color: #53652b;
+    padding-top: 10px;
+    margin-bottom: -12px;
+  }
+
+  .contact-form label
+  {
+    font-size: 20px;
+    font-family: 'Averia Serif Libre', cursive;
+    color: #53652b;
+  }
+
+}
+
+@media screen and (min-width: 965px){
+
+  .heroText1
+  {
+    margin-top: -100px;
+  }
+
+  .contact-form h1
+  {
+    font-size: 30px;
+    margin-bottom: -15px;
+  }
+
+}

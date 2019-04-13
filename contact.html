@@ -12,60 +12,57 @@
 </head>
 <body>
  <div class="container">
-       <header id="mainHeader">
-          <div class="box nav">
-            <nav id="mainNav">
-              <h2 class="hidden">Main Navigation</h2>
-                <button id="button"></button>
-            <div id="burgerCon">
-                <ul id="burgerMenu">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="about_us.html">About Us</a></li>
-                  <li><a href="events.html">Past Events</a></li>
-                  <li><a href="projects.html">Projects</a></li>
-                  <li><a href="links.html">Links</a></li>
-                  <li><a href="contact.html">Contact <span id="us"></span>Us</a></li>
-                </ul>
-          </div>
-        </nav>
+   <header id="mainHeader">
+     <div class="box nav">
+       <nav id="mainNav">
+         <h2 class="hidden">Main Navigation</h2>
+           <button id="button"></button>
+       <div id="burgerCon">
+           <ul id="burgerMenu">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="about_us.html">About Us</a></li>
+             <li><a href="past_events.html">Past Events</a></li>
+             <li><a href="projects.html">Projects</a></li>
+             <li><a href="links.html">Links</a></li>
+             <li><a href="contact.html">Contact Us</a></li>
+           </ul>
+     </div>
+   </nav>
 
-<div id="logo_middle">
-
-  <img class="contact-banner" src="images/traa_logo-MASTER.svg" alt="" height="250px" width="250px">
-
-</div>
- </header>
+     </div>
+     <div class="box logo">
+       <img src="images/traa_logo-MASTER_header.svg" alt="" height="250px" width="250px;">
+     </div>
+   </header>
 
 <header class="hidden deskNav">
-  <nav id="navMainLeft">
-    <h1 class="hidden">Main Navigation Desktop</h1>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about_us.html">About Us</a></li>
-        <li id="eventsLink"><a href="events.html">Past Events</a></li>
-      </ul>
-  </nav>
+<nav id="navMainLeft">
+<h1 class="hidden">Main Navigation Desktop</h1>
+ <ul>
+   <li><a href="index.html">Home</a></li>
+   <li><a href="about_us.html">About Us</a></li>
+   <li id="eventsLink"><a href="past_events.html">Past Events</a></li>
+ </ul>
+</nav>
 
-    <div id="logo_middle" class="logo_middle">
-      <img src="images/traa_logo-MASTER_header.svg" alt="" height="280px" width="280px;">
-    </div>
+<div id="logo_middle" class="logo_middle">
+ <img src="images/traa_logo-MASTER_header.svg" alt="" height="280px" width="280px;">
+</div>
 
-    <nav id="navMainRight">
-    <h1 class="hidden">Main Navigation Right</h1>
-    <ul>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="links.html">Links</a></li>
-      <li id="contactLink"><a href="contact.html">Contact Us</a></li>
-    </ul>
-    </nav>
+<nav id="navMainRight">
+<h1 class="hidden">Main Navigation Right</h1>
+<ul>
+ <li><a href="projects.html">Projects</a></li>
+ <li><a href="links.html">Links</a></li>
+ <li id="contactLink"><a href="contact.html">Contact Us</a></li>
+</ul>
+</nav>
 </header>
 
-
-<!--Hero Image SlideShow-->
  <section id="heroContact">
   <h1 class="hidden">Hero Image</h1>
    <div id="contactFish">
-      <img src="images/contact_fish.jpg" alt="river" height="400" width="1300">
+      <img src="images/contact_fish.jpg" alt="river" height="400" width="1300" class="responsive">
    </div>
  </section>
 
@@ -79,37 +76,62 @@
     You've taken a lot of enjoyment from this unique fishery. It's time to give back by being part of the solution.</p>
  </section>
 
- <div class="contact-form">
-    <h1>Send Us a Message</h1>
-    <div class="text">
-      <label>Full Name :</label>
-      <input type="text name="" value="" placeholder="Enter Your Name">
+ <section id="contactInfo">
+
+   <section class="contact-form boxContact">
+      <h1>Send Us a Message</h1>
+      <div class="text">
+        <label>Full Name :</label>
+        <input type="text" name="" value="" placeholder="Enter Your Name">
+      </div>
+
+      <div class="text">
+        <label>Email :</label>
+        <input type="" email="" value="" placeholder="Enter Your Email">
+      </div>
+
+      <div class="text">
+        <label>Message :</label>
+        <textarea placeholder="Enter Your Message"></textarea>
+      </div>
+      <a class="btn">Send</a>
+
+    </section>
+
+    <div id="mapArea" class="boxContact">
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.892343594334!2d-81.33123578501696!3d43.001601402338196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882eeffd4ce1898f%3A0xbbfdcc9ec65abe25!2s2202+Coronation+Dr%2C+London%2C+ON+N6G+0B9!5e0!3m2!1sen!2sca!4v1549329266633" width="100%" height="100%" class="responsiveMap" frameborder="0" style="border:0" allowfullscreen></iframe>
+
     </div>
 
-    <div class="text">
-      <label>Email :</label>
-      <input type="email="" value="" placeholder="Enter Your Email">
-    </div>
+ </section>
 
-    <div class="text">
-      <label>Message :</label>
-      <textarea></textarea>
-    </div>
-    <a class="btn">Send</a>
 
-  </div>
 
-  <div id="mapArea">
+  <footer class="footer">
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.892343594334!2d-81.33123578501696!3d43.001601402338196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882eeffd4ce1898f%3A0xbbfdcc9ec65abe25!2s2202+Coronation+Dr%2C+London%2C+ON+N6G+0B9!5e0!3m2!1sen!2sca!4v1549329266633" width="450" height="422" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <section id="footerMobile">
 
-  </div>
+        <section id="footerMobileCont">
+          <a id="backToTopBut" href="index.html">Back To Top</a>
 
- <footer class="footer">
+              <div class="footerNavBoxMobile">
+                <nav id="footerNavMobile">
+                  <h1 class="hidden">Footer Navigation</h1>
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about_us.html">About Us</a></li>
+                      <li><a href="past_events.html">Past Events</a></li>
+                      <li><a href="projects.html">Projects</a></li>
+                      <li><a href="links.html">Links</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </nav>
+              </div>
 
-          <section id="footerMobile">
-            <a id="backToTopBut" href="contact.html">Back To Top</a>
-            <p class="footerCopyRightMobile">©Copyright 2019</p>
+              <p class="footerCopyRightMobile">©Copyright 2019</p>
+            </section>
+
           </section>
 
           <section id="footerDesktop">
@@ -124,7 +146,7 @@
                   <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about_us.html">About Us</a></li>
-                    <li><a href="events.html">Past Events</a></li>
+                    <li><a href="past_events.html">Past Events</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="links.html">Links</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
