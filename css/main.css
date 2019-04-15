@@ -16,15 +16,12 @@ p
   font-family: 'Averia Serif Libre', cursive;
   color: black;
 }
-h1, h2
+h1, h2, h3
 {
   font-family: 'Lato', sans-serif;
   font-weight: 800;
   letter-spacing: 2px;
 }
-
-
-
 
 h4
 {
@@ -493,7 +490,7 @@ body
     margin-top: 50px;
   }
 
-  #linesMobile
+  .linesMobile
   {
     display: none;
   }
@@ -803,7 +800,7 @@ body
   margin: 10px;
 }
 
-.aboutUsInfoBox h1
+.aboutUsInfoBox h3
 {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -951,7 +948,7 @@ body
 
 
 
-#linesMobileAbout
+.linesMobileAbout
 {
   display: none;
 }
@@ -999,7 +996,7 @@ body
     margin-top: 30px;
   }
 
-  #linesMobileAbout
+  .linesMobileAbout
   {
     display: none;
   }
